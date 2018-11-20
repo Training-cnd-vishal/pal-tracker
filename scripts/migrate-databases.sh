@@ -19,4 +19,8 @@ sleep 5
 
 flyway-*/flyway -url="jdbc:mysql://127.0.0.1:63306/$db_name" -locations=filesystem:$2/databases/tracker -user=$db_username -password=$db_password migrate
 
+<<<<<<< HEAD
 kill -STOP $cf_ssh_pid
+=======
+kill -STOP $cf_ssh_pid
+>>>>>>> 27eef47... Add task for migrating databases
