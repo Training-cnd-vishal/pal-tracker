@@ -1,3 +1,4 @@
+
 package test.pivotal.pal.tracker;
 
 import io.pivotal.pal.tracker.WelcomeController;
@@ -13,4 +14,6 @@ public class WelcomeControllerTest {
 
         assertThat(controller.sayHello()).isEqualTo("A welcome message");
     }
+
 }
+
