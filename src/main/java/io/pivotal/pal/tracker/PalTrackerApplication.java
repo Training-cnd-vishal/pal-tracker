@@ -20,6 +20,7 @@ public class PalTrackerApplication {
 
     @Bean
     TimeEntryRepository timeEntryRepository(DataSource dataSource) {
+        System.out.println("dataSource : "+dataSource);
         return new JdbcTimeEntryRepository(dataSource);
     }
 
